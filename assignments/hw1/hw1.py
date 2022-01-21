@@ -1,35 +1,45 @@
 """
-Name: <your name goes here – first and last>
-<ProgramName>.py
+Name: Brett Widholm
+hw1.py
 
-Problem: <Brief, one or two sentence description of the problem that this program solves, in your own words.>
+Problem: <This program uses various mathematical equations to calculate solutions to
+a multitude of problems quickly. This program offers shortcuts for users, sparing them
+of their own calculations and completing the job for them.>
 
 Certification of Authenticity:
-<include one of the following>
+
 I certify that this assignment is entirely my own work.
-I certify that this assignment is my own work, but I discussed it with: <Name(s)>
 """
 
 
 def calc_rec_area():
-    pass
-
+    length = eval(input('Enter the length: '))
+    width = eval(input('Enter the width: '))
+    area = length*width
+    print('Area =', area)
 
 def calc_volume():
-    pass
-
+    length = eval(input('Enter the length: '))
+    width = eval(input('Enter the width: '))
+    height = eval(input('Enter the height: '))
+    volume = length*width*height
+    print('Volume =', volume)
 
 def shooting_percentage():
-    pass
-
+    shots = eval(input("Enter the player's total shots: "))
+    shotsmade = eval(input(' Enter how many shots the player made: '))
+    shootingpercent = shotsmade/shots*100
+    print('Shooting percentage:', shootingpercent, '%')
 
 def coffee():
-    pass
-
+    pounds_of_coffee = eval(input('How many pounds of coffee would you like? '))
+    total = (10.50*pounds_of_coffee)+(0.86*pounds_of_coffee)+1.50
+    print('Your total is:', total)
 
 def kilometers_to_miles():
-    pass
-
+    kilometers = eval(input('How many kilometers did you travel? '))
+    miles = kilometers/1.61
+    print("That's", miles, 'miles!')
 
 if __name__ == '__main__':
     pass
