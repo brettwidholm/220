@@ -173,10 +173,10 @@ def another_series():
 def target():
     win = GraphWin("Target", 400, 400)
 
-    yellow_circle = Circle(Point(200, 200), 12.5)
-    red_circle = Circle(Point(200, 200), 25)
-    blue_circle = Circle(Point(200, 200), 50)
-    black_circle = Circle(Point(200, 200), 100)
+    yellow_circle = Circle(Point(200, 200), 40)
+    red_circle = Circle(Point(200, 200), 80)
+    blue_circle = Circle(Point(200, 200), 120)
+    black_circle = Circle(Point(200, 200), 160)
     white_circle = Circle(Point(200, 200), 200)
 
     white_circle.draw(win)
