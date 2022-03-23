@@ -1,9 +1,17 @@
-def get_words(file_name):
-    pass
+import random
 
+def get_words(file_name):
+    word_list = []
+    file = open(file_name, 'r')
+    file_lines = file.readlines()
+    for i in file_lines:
+        new_line = i.replace('\n', '')
+        word_list.append(new_line)
+    return word_list
 
 def get_random_word(words):
-    pass
+    print(words[2])
+
 
 
 def letter_in_secret_word(letter, secret_word):
