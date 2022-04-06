@@ -20,6 +20,7 @@ def main():
     button = Button(button_rectangle, 'Exit')
     door = Door(door_rectangle, 'Closed')
 
+
     clicker = win.getMouse()
     while button.is_clicked(clicker) == False:
 
