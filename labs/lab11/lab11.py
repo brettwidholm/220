@@ -140,10 +140,3 @@ def three_door_game():
         clicker = win.getMouse()
 
     win.close()
-
-
-
-
-
-    #win.close()
-    #print('fu')
