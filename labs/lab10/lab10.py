@@ -20,7 +20,9 @@ def main():
     button = Button(button_rectangle, 'Exit')
     door = Door(door_rectangle, 'Closed')
 
-
+    door.draw(win)
+    button.draw(win)
+    door.color_door('red')
     clicker = win.getMouse()
     while button.is_clicked(clicker) == False:
 
@@ -31,4 +33,3 @@ def main():
         clicker = win.getMouse()
 
     win.close()
-
